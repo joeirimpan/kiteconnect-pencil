@@ -1,0 +1,12 @@
+[package]
+name = "kiteconnect-pencil"
+version = "0.1.0"
+authors = ["Joe Paul <joeirimpan@gmail.com>"]
+
+[dependencies]
+serde_json = "1.0"
+kiteconnect = "0.2.1"
+
+[dependencies.pencil]
+pencil = "0.3.0"
+default_features = false
